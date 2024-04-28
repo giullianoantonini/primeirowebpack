@@ -1,0 +1,77 @@
+body {
+    background-color: #8FBCB3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    gap: 20px;
+}
+
+input {
+    height: 15%;
+}
+
+button {
+    height: 15%;
+}
+
+.divTeste {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 45%;
+    padding: 20px;
+    gap: 20px;
+    background-color: #DFE6ED;
+}
+
+.inputsTeste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.divResultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #788895;
+    background-color: #C3CFD9;
+}
+
+.resultadoApresentado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.divResultado p{
+    width: 100%;
+    margin: 0;
+}
