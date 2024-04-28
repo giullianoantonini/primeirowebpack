@@ -21,10 +21,14 @@ main {
 
 input {
     height: 15%;
+    border-radius: 5px;
 }
 
 button {
     height: 15%;
+    border-radius: 5px;
+    background-color: #788895;
+    color: white;
 }
 
 .divTeste {
