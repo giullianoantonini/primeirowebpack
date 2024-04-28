@@ -19,6 +19,6 @@ function executarDividir() {
     const num1 = Number(document.getElementById("numeroUm").value)
     const num2 = Number(document.getElementById("numeroDois").value)
     const resultado = num1 / num2
-    document.getElementById("resultadoDividir").innerText = resultado
+    document.getElementById("resultadoRetornado2").innerText = resultado
     return resultado
 }
